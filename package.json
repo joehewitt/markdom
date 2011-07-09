@@ -1,0 +1,21 @@
+{
+    "name": "markdom",
+    "description": "Markdown parser based on upskirt",
+    "url": "http://github.com/joehewitt/markdom",
+    "repository": {
+        "type": "git",
+        "url" : "http://github.com/joehewitt/markdom"
+    },
+    "author": "Joe Hewitt <joe@joehewitt.com>",
+    "keywords": ["markdown", "upskirt"],
+    "contributors": [],
+    "dependencies": {
+        "underscore": "",
+        "vows": ">=0.5.4"
+    },
+    "version": "0.0.1",
+    "engines": { "node": ">=0.4.0" },
+    "main": "./lib/markdom",
+    "directories": { "test": "./test" },
+    "scripts": { "install": "node-waf configure build" }
+}
