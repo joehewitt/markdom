@@ -1,12 +1,14 @@
 markdom
 ========
 
-A Markdown parser than can create and transform a DOM before generating HTML.
+A Markdown parser for Node.js.
+
+Markdom uses the Upskirt library to parse Markdom and transform it to HTML. Optionally, it can turn Markdom into a DOM so that you can manipulate individual nodes before generating HTML.
 
 Installation
 ------------
 
-    $ npm install markdom
+    $ npm install markdom (not yet, it's not published)
 
 License 
 -------
