@@ -1,10 +1,10 @@
 {
     "name": "markdom",
     "description": "Markdown parser based on upskirt",
-    "url": "http://github.com/joehewitt/markdom",
+    "homepage": "http://github.com/joehewitt/markdom",
     "repository": {
         "type": "git",
-        "url" : "http://github.com/joehewitt/markdom"
+        "url" : "http://github.com/joehewitt/markdom.git"
     },
     "author": "Joe Hewitt <joe@joehewitt.com>",
     "keywords": ["markdown", "upskirt"],

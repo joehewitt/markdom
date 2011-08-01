@@ -8,7 +8,7 @@ Markdom uses the Upskirt library to parse Markdom and transform it to HTML. Opti
 Installation
 ------------
 
-    $ npm install markdom (not yet, it's not published)
+    $ npm install markdom
 
 License 
 -------
