@@ -13,7 +13,7 @@
         "underscore": "",
         "vows": ">=0.5.4"
     },
-    "version": "0.0.2",
+    "version": "0.0.3",
     "engines": { "node": ">=0.4.0" },
     "main": "./lib/markdom",
     "directories": { "test": "./test" },
