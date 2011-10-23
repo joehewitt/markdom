@@ -1,21 +1,31 @@
 {
-    "name": "markdom",
-    "description": "Markdown parser based on upskirt",
-    "version": "0.0.4",
-    "homepage": "http://github.com/joehewitt/markdom",
-    "repository": {
-        "type": "git",
-        "url" : "http://github.com/joehewitt/markdom.git"
-    },
-    "author": "Joe Hewitt <joe@joehewitt.com>",
-    "keywords": ["markdown", "upskirt"],
-    "contributors": [],
-    "dependencies": {
-        "underscore": "",
-        "vows": ">=0.5.4"
-    },
-    "engines": { "node": ">=0.4.0" },
-    "main": "./lib/markdom",
-    "directories": { "test": "./test" },
-    "scripts": { "install": "node-waf configure build" }
+  "name": "markdom",
+  "description": "Markdown parser based on upskirt",
+  "version": "0.0.5",
+  "homepage": "http://github.com/joehewitt/markdom",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/joehewitt/markdom.git"
+  },
+  "author": "Joe Hewitt <joe@joehewitt.com>",
+  "keywords": [
+    "markdown",
+    "upskirt"
+  ],
+  "contributors": [],
+  "dependencies": {
+    "underscore": "",
+    "vows": ">=0.5.4"
+  },
+  "engines": {
+    "node": ">=0.4.0"
+  },
+  "main": "./lib/markdom",
+  "directories": {
+    "test": "./test"
+  },
+  "scripts": {
+    "install": "node-waf configure build"
+  },
+  "devDependencies": {}
 }
