@@ -1,7 +1,7 @@
 {
   "name": "markdom",
   "description": "Markdown parser based on upskirt",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "homepage": "http://github.com/joehewitt/markdom",
   "repository": {
     "type": "git",
