@@ -1,7 +1,7 @@
 {
   "name": "markdom",
   "description": "Markdown parser based on upskirt",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "homepage": "http://github.com/joehewitt/markdom",
   "repository": {
     "type": "git",
@@ -27,5 +27,6 @@
   "scripts": {
     "install": "node-waf configure build"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "optionalDependencies": {}
 }
