@@ -113,10 +113,12 @@ static Handle<Value> ToDOM(const Arguments& args) {
     return scope.Close(ret);
 }
  
-extern "C" void
-init (Handle<Object> target) {
+static void
+init(Handle<Object> target) {
     HandleScope scope;
     target->Set(String::New("version"), String::New("0.1"));
     NODE_SET_METHOD(target, "toHTML", ToHTML);
     NODE_SET_METHOD(target, "toDOM", ToDOM);
 }
+
+NODE_MODULE(_markdom, init)
